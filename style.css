@@ -1,0 +1,71 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #f9fafb;
+}
+
+header {
+  background: #007FFF;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#search {
+  width: 90%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+aside {
+  width: 30%;
+  background: white;
+  border-right: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.note {
+  padding: 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.note:hover {
+  background: #e6f2ff;
+}
+
+#note-editor {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#note-content {
+  flex: 1;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+#save-btn {
+  background: #007FFF;
+  color: white;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+#save-btn:hover {
+  background: #005fcc;
+}
